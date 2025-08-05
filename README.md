@@ -1,6 +1,6 @@
 # 🏠 Real Estate Ontology
 
-![alt text](./images/starter.png)
+![alt text](./starter.png)
 
 A semantic web ontology designed to model complex real estate systems, including properties, transactions, legal constraints, market data, and stakeholders. Built using **OWL**, **SPARQL**, and **Protégé**, this project aims to improve knowledge representation and reasoning in the real estate domain.
 
