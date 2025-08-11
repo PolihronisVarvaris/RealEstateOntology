@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Amenity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Amenity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#BuildingCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#BuildingCode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LegalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Buyer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Buyer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Closing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Closing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#CommercialProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#CommercialProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#DemandTrend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#DemandTrend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#MarketData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#EconomicIndicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#EconomicIndicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#MarketData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#EnvironmentalRegulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#EnvironmentalRegulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LegalRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Land -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Land">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Lease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Lease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LeaseAgreement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LeaseAgreement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LegalRequirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LegalRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Listing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Listing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#MarketData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#MarketData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Negotiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Negotiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#PricingTrend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#PricingTrend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#MarketData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Purchase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Purchase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#RealEstateAgent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#RealEstateAgent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Rent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Rent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#RentalAgreement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#RentalAgreement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#ResidentialProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#ResidentialProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Sale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Sale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#SaleContract -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#SaleContract">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Viewing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Viewing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#ZoningRestriction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#ZoningRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LegalRequirement"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
