@@ -16,6 +16,9 @@ The project models a comprehensive information system for real estate agencies u
 
 ---
 
+![alt text](./ontologyImage.png)
+
+
 ## 🧠 Ontology Structure
 
 ### 🔹 Core Classes
