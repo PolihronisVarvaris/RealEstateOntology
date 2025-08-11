@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53/"
+     xml:base="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#"
+     xmlns:untitled-ontology-53="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53">
+        <owl:imports rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#contractTerms -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#contractTerms">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#featureValue -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#featureValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#propertyStatus -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#propertyStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasAmenity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasAmenity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasBuildingCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasBuildingCode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasCondition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasDemandTrend -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasDemandTrend"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasEconomicIndicator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasEconomicIndicator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasEnviromentalRegulation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasEnviromentalRegulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasPricingTrend -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasPricingTrend"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasRealEstateAgent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasRealEstateAgent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#workingAt"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasZoningRestriction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#hasZoningRestriction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#interestedInProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#interestedInProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#workingAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#workingAt">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#RealEstateAgent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#areaSize -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#areaSize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#constructionYear -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#constructionYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#contactNumber -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#contactNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#contractID -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#contractID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#emailAddress -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#emailAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#endDate -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#endDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#featureName -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#featureName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Feature"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#processDate -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#processDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#processDescription -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#processDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#processID -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#processID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#propertyID -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#propertyID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#stakeholderID -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#stakeholderID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Stakeholder"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#startDate -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#startDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Contract"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#transactionAmount -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#transactionAmount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#transactionDate -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#transactionDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#transactionID -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#transactionID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#address">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#addressNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#addressNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#applicableRegion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#applicableRegion">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#city -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#city">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#codeName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#codeName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#conditionNow -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#conditionNow">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Condition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#country">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#demandTrendDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#demandTrendDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#DemandTrend"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#demandTrendPeriod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#demandTrendPeriod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#DemandTrend"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#effectiveDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#effectiveDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#indicatorType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#indicatorType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#indicatorValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#indicatorValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#regulationDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#regulationDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#regulationName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#regulationName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#restrictionDetails -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#restrictionDetails">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#trendDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#trendDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#PricingTrend"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#zoningRestrictionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#zoningRestrictionName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Address">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_A -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_A">
+        <untitled-ontology-53:workingAt rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Re/Min"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_B -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_B">
+        <untitled-ontology-53:workingAt rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Weller_Killiams"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Lease_Agreement -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Lease_Agreement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LeaseAgreement"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_101 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_101">
+        <untitled-ontology-53:hasCondition rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Good"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_102 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_102">
+        <untitled-ontology-2:ownedBy rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Owner_B"/>
+        <untitled-ontology-53:hasCondition rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Good"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_103 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_103">
+        <untitled-ontology-2:ownedBy rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Owner_C"/>
+        <untitled-ontology-53:hasAmenity rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Amenity_Pool"/>
+        <untitled-ontology-53:hasCondition rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_New"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_104 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_104">
+        <untitled-ontology-2:ownedBy rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Owner_C"/>
+        <untitled-ontology-53:hasCondition rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_New"/>
+        <untitled-ontology-53:hasLocation rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_St_James_30"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant_1 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant_1">
+        <untitled-ontology-2:rentsProperty rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_101"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction_002 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction_002">
+        <untitled-ontology-2:involvesStakeholder rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant_1"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction_003 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Transaction_003">
+        <untitled-ontology-2:involvesStakeholder rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Tenant_2"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Premium_Homes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Premium_Homes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agency"/>
+        <untitled-ontology-53:hasLocation rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Farsalon_110"/>
+        <untitled-ontology-53:hasRealEstateAgent rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_C"/>
+        <untitled-ontology-2:name>Premium Homes Agency</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Weller_Killiams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Weller_Killiams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agency"/>
+        <untitled-ontology-53:hasLocation rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_St_James_30"/>
+        <untitled-ontology-53:hasRealEstateAgent rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_B"/>
+        <untitled-ontology-2:name>Weller Killiams</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Amenity_Balcony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Amenity_Balcony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Amenity"/>
+        <untitled-ontology-2:featureName>Balcony</untitled-ontology-2:featureName>
+        <untitled-ontology-2:featureValue>Large</untitled-ontology-2:featureValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#BuildingCode -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#BuildingCode">
+        <untitled-ontology-53:applicableRegion>Urban Areas</untitled-ontology-53:applicableRegion>
+        <untitled-ontology-53:codeName>Fire Safety Regulations</untitled-ontology-53:codeName>
+        <untitled-ontology-53:effectiveDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-01</untitled-ontology-53:effectiveDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Commercial_Property_105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Commercial_Property_105"/>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Good -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Good">
+        <untitled-ontology-53:conditionNow>Good</untitled-ontology-53:conditionNow>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_New -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_New">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Condition"/>
+        <untitled-ontology-53:conditionNow>Great</untitled-ontology-53:conditionNow>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Old -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Old">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Condition"/>
+        <untitled-ontology-53:conditionNow>Needs Renovation</untitled-ontology-53:conditionNow>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Poor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_Poor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Condition"/>
+        <untitled-ontology-53:conditionNow>Poor Condition</untitled-ontology-53:conditionNow>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#DemandTrend -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#DemandTrend">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#DemandTrend"/>
+        <untitled-ontology-53:demandTrendDescription>High demand for residential properties in urban areas</untitled-ontology-53:demandTrendDescription>
+        <untitled-ontology-53:demandTrendPeriod>Q4 2024</untitled-ontology-53:demandTrendPeriod>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#EconomicIndicator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#EconomicIndicator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#EconomicIndicator"/>
+        <untitled-ontology-53:indicatorType>Interest Rate</untitled-ontology-53:indicatorType>
+        <untitled-ontology-53:indicatorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</untitled-ontology-53:indicatorValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#EnviromentalRegulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#EnviromentalRegulation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#EnvironmentalRegulation"/>
+        <untitled-ontology-53:effectiveDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-15</untitled-ontology-53:effectiveDate>
+        <untitled-ontology-53:regulationDescription>Mandates the use of eco-friendly materials in construction</untitled-ontology-53:regulationDescription>
+        <untitled-ontology-53:regulationName>Green Building Standards</untitled-ontology-53:regulationName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#LegalRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#LegalRequirement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#LegalRequirement"/>
+        <untitled-ontology-53:hasBuildingCode rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#BuildingCode"/>
+        <untitled-ontology-53:hasEnviromentalRegulation rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#EnviromentalRegulation"/>
+        <untitled-ontology-53:hasZoningRestriction rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#ZoningRestriction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Central_Park_12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Central_Park_12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <untitled-ontology-53:address>Central Park</untitled-ontology-53:address>
+        <untitled-ontology-53:addressNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</untitled-ontology-53:addressNumber>
+        <untitled-ontology-53:city>New York</untitled-ontology-53:city>
+        <untitled-ontology-53:country>USA</untitled-ontology-53:country>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Farsalon_110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Farsalon_110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <untitled-ontology-53:address>Farsalon</untitled-ontology-53:address>
+        <untitled-ontology-53:addressNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110</untitled-ontology-53:addressNumber>
+        <untitled-ontology-53:city>Larissa</untitled-ontology-53:city>
+        <untitled-ontology-53:country>Greece</untitled-ontology-53:country>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Kalvou_24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Kalvou_24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <untitled-ontology-53:address>Kalvou</untitled-ontology-53:address>
+        <untitled-ontology-53:addressNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</untitled-ontology-53:addressNumber>
+        <untitled-ontology-53:city>Thessaloniki</untitled-ontology-53:city>
+        <untitled-ontology-53:country>Greece</untitled-ontology-53:country>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_St_James_30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_St_James_30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location"/>
+        <untitled-ontology-53:address>St James</untitled-ontology-53:address>
+        <untitled-ontology-53:addressNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</untitled-ontology-53:addressNumber>
+        <untitled-ontology-53:city>New York</untitled-ontology-53:city>
+        <untitled-ontology-53:country>USA</untitled-ontology-53:country>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#MarketData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#MarketData">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#MarketData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Negotiating_Process_Property_104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Negotiating_Process_Property_104">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Negotiation"/>
+        <untitled-ontology-2:appliesToProperty rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_104"/>
+        <untitled-ontology-53:interestedInProperty rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Owner_C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Owner_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Owner"/>
+        <untitled-ontology-2:ownsProperty rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_103"/>
+        <untitled-ontology-2:ownsProperty rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Property_104"/>
+        <untitled-ontology-2:contactNumber>999-888-7777</untitled-ontology-2:contactNumber>
+        <untitled-ontology-2:emailAddress>ownerC@example.com</untitled-ontology-2:emailAddress>
+        <untitled-ontology-2:name>Robert Brown</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#PricingTrend -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#PricingTrend">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#PricingTrend"/>
+        <untitled-ontology-53:trendDescription>Increase in property prices by 10% in 2024</untitled-ontology-53:trendDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Property_105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Property_105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#ResidentialProperty"/>
+        <untitled-ontology-2:ownedBy rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Owner_C"/>
+        <untitled-ontology-53:hasAmenity rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Amenity_Garage"/>
+        <untitled-ontology-2:areaSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2700</untitled-ontology-2:areaSize>
+        <untitled-ontology-2:constructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</untitled-ontology-2:constructionYear>
+        <untitled-ontology-2:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950000</untitled-ontology-2:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Property_106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Property_106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#CommercialProperty"/>
+        <untitled-ontology-2:managedBy rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_A"/>
+        <untitled-ontology-2:ownedBy rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Owner_B"/>
+        <untitled-ontology-53:hasCondition rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Condition_New"/>
+        <untitled-ontology-2:areaSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3500</untitled-ontology-2:areaSize>
+        <untitled-ontology-2:constructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2022</untitled-ontology-2:constructionYear>
+        <untitled-ontology-2:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1200000</untitled-ontology-2:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Tenant_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Tenant_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant"/>
+        <untitled-ontology-2:contactNumber>777-666-5555</untitled-ontology-2:contactNumber>
+        <untitled-ontology-2:emailAddress>tenant2@example.com</untitled-ontology-2:emailAddress>
+        <untitled-ontology-2:name>Jessica White</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Tenant_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Tenant_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Tenant"/>
+        <untitled-ontology-2:contactNumber>555-444-3333</untitled-ontology-2:contactNumber>
+        <untitled-ontology-2:emailAddress>tenant3@example.com</untitled-ontology-2:emailAddress>
+        <untitled-ontology-2:name>Liam Smith</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Transaction_004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Transaction_004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Sale"/>
+        <untitled-ontology-2:hasTransaction rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Property_105"/>
+        <untitled-ontology-2:involvesStakeholder rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Tenant_3"/>
+        <untitled-ontology-2:transactionAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">950000</untitled-ontology-2:transactionAmount>
+        <untitled-ontology-2:transactionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</untitled-ontology-2:transactionDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#ZoningRestriction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#ZoningRestriction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#ZoningRestriction"/>
+        <untitled-ontology-53:applicableRegion>Suburban Areas</untitled-ontology-53:applicableRegion>
+        <untitled-ontology-53:restrictionDetails>Maximum building height of 15 meters</untitled-ontology-53:restrictionDetails>
+        <untitled-ontology-53:zoningRestrictionName>Residential Zone Height Limit</untitled-ontology-53:zoningRestrictionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Re/Min -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Agency_Re/Min">
+        <rdf:type rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agency"/>
+        <untitled-ontology-53:hasLocation rdf:resource="http://www.semanticweb.org/polymnia/ontologies/2024/11/untitled-ontology-53#Location_Kalvou_24"/>
+        <untitled-ontology-53:hasRealEstateAgent rdf:resource="http://www.semanticweb.org/polih/ontologies/2024/10/untitled-ontology-2#Agent_A"/>
+        <untitled-ontology-2:name>Re/Min</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
